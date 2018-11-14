@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>Description</key>
+	<string>This generates a new interactor using Uncle Bob&apos;s clean architecture. Your business logic goes here.</string>
+	<key>Summary</key>
+	<string>An empty Swift file</string>
+	<key>SortOrder</key>
+	<string>0</string>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>The name of the module to create</string>
+			<key>Identifier</key>
+			<string>moduleName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>New Module name:</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_moduleName:identifier___</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_moduleName:identifier___ViewController</string>
+			<key>Description</key>
+			<string>The view controller name</string>
+			<key>Identifier</key>
+			<string>viewControllerName</string>
+			<key>Name</key>
+			<string>View Controller Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_moduleName:identifier___Interactor</string>
+			<key>Description</key>
+			<string>The interactor name</string>
+			<key>Identifier</key>
+			<string>interactorName</string>
+			<key>Name</key>
+			<string>Interactor Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_moduleName:identifier___Presenter</string>
+			<key>Description</key>
+			<string>The presenter name</string>
+			<key>Identifier</key>
+			<string>presenterName</string>
+			<key>Name</key>
+			<string>Presenter Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_moduleName:identifier___Router</string>
+			<key>Description</key>
+			<string>The router name</string>
+			<key>Identifier</key>
+			<string>routerName</string>
+			<key>Name</key>
+			<string>Router Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_moduleName:identifier___</string>
+			<key>Description</key>
+			<string>The storyboard name</string>
+			<key>Identifier</key>
+			<string>storyboardName</string>
+			<key>Name</key>
+			<string>Storyboard Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+	</array>
+	<key>DefaultCompletionName</key>
+	<string>MyModule</string>
+	<key>MainTemplateFile</key>
+	<string>___FILEBASENAME___.swift</string>
+</dict>
+</plist>
